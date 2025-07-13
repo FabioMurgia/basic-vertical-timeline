@@ -1,3 +1,5 @@
+<h1>A simple vertical timeline made out of divs</h1>
+
 This is a simple html & css vertical timeline to use as a template. It's proportionate to the around of time passed, and there are three units in css that control the height of the div:
 
 `.day-span {
