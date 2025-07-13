@@ -16,20 +16,21 @@ h1 {
 }
 
 .day-span {
-  height: 0.5rem;
+  height: 1rem;
 }
 
 .week-span {
-  height: calc(0.5 * 7rem);
+  height: calc(1 * 7rem);
 }
 
 .month-span {
-    height: calc(0.5 * 30rem);
+    height: calc(1 * 30rem);
 }
 
 .event-header {
 font-weight: 800;
 font-size: 1.1rem;
+margin-top: -.2rem;
 }
 
 .event-date {
@@ -37,19 +38,19 @@ font-size: .8rem;
 opacity: 40%;
 }
 
-.event-text, .label {
+.event-text {
 font-size: .8rem;
 }
 
-.label {
+.event {
   border-left: none;
-  margin-top: .2rem;
-  margin-bottom: .2rem;
+  margin-top: .1rem;
+  margin-bottom: .25rem;
   margin-left: -0.5px;
   height: fit-content;
 }
 
-.text-label {
+.event-wrapper {
     padding-left: 0px;
     margin-top: -1rem;
     margin-left: 3.5rem;
