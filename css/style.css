@@ -1,0 +1,23 @@
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.time {
+    border-left: .2rem solid black;
+  margin-left: .8rem;
+}
+
+.day-span {
+  /*background-color:red;*/
+  height: 0.5rem;
+}
+
+.week-span {
+  /*background-color:purple;*/
+  height: calc(0.5 * 7rem);
+}
+
+#covid-hits {
+  border-left: .2rem solid orange;
+}
