@@ -10,34 +10,7 @@
   <body>
     <h1>A Simple Timeline Template made with Blocks</h1>
     <div class="timeline-wrapper">
-      <div class="event">
-        <div class="event-header">Event 1</div>
-        <div class="event-date">01/01/2000</div>
-        <div class="event-text">Lorem Ipsum</div>
-      </div>
-      <div class="time day-span"></div>
-      <div class="event">
-        <div class="event-header">Event 2</div>
-        <div class="event-date">01/02/2000</div>
-        <div class="event-text">Lorem Ipsum</div>
-      </div>
-      <div class="time day-span"></div>
-      <div class="time day-span"></div>
-      <div class="event">
-        <div class="event-header">Event 3</div>
-        <div class="event-date">01/04/2000</div>
-        <div class="event-text">Lorem Ipsum</div>
-      </div>
-      <div class="time week-span"></div>
-      <div class="event">
-        <div class="event-header">Event 4</div>
-        <div class="event-date">01/10/2000</div>
-        <div class="event-text">Lorem Ipsum</div>
-      </div>
-      <div class="time week-span"></div>
-      <div class="time week-span"></div>
-      <div class="time day-span"></div>
-      <div class="time day-span label">
+        <div class="event">
         <div class="dot">
           <svg height="10" width="50">
             <circle r="5" cx="15" cy="5" fill="red" />
@@ -47,18 +20,57 @@
             ></path>
           </svg>
         </div>
-        <div class="text-label">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta odio quis nulla venenatis, vitae venenatis sapien aliquet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis imperdiet quam non arcu gravida laoreet. Aliquam vel enim libero. Ut ac ante congue, accumsan urna et, fermentum lacus. Vivamus ornare nulla risus, vel suscipit sapien molestie sit amet. Donec auctor ante nisi. Phasellus consectetur pharetra nisl, quis posuere risus aliquet eget.</div>
+        <div class="event-wrapper">
+          <div class="event-header">Event 1</div>
+          <div class="event-date">01/1/2000</div>
+          <div class="event-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta odio quis nulla venenatis, vitae venenatis sapien aliquet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis imperdiet quam non arcu gravida laoreet. </div>
+        </div>
       </div>
+      <div class="time day-span"></div>
+      <div class="time day-span"></div>
+      <div class="time day-span"></div>
+      <div class="time day-span"></div>
+      <div class="event">
+        <div class="dot">
+          <svg height="10" width="50">
+            <circle r="5" cx="15" cy="5" fill="red" />
+            <path
+              style="stroke: rgb(0, 0, 0); stroke-width: 1px; fill: none"
+              d="M 25 5 L 48 5"
+            ></path>
+          </svg>
+        </div>
+        <div class="event-wrapper">
+          <div class="event-header">Event 4</div>
+          <div class="event-date">01/10/2000</div>
+          <div class="event-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta odio quis nulla venenatis, vitae venenatis sapien aliquet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis imperdiet quam non arcu gravida laoreet. Aliquam vel enim libero. Ut ac ante congue, accumsan urna et, fermentum lacus. Vivamus ornare nulla risus, vel suscipit sapien molestie sit amet. Donec auctor ante nisi. Phasellus consectetur pharetra nisl, quis posuere risus aliquet eget.</div>
+        </div>
+      </div>
+      <div class="time week-span"></div>
+      <div class="time week-span"></div>
+      <div class="time day-span"></div>
+      <div class="event">
+        <div class="dot">
+          <svg height="10" width="50">
+            <circle r="5" cx="15" cy="5" fill="red" />
+            <path
+              style="stroke: rgb(0, 0, 0); stroke-width: 1px; fill: none"
+              d="M 25 5 L 48 5"
+            ></path>
+          </svg>
+        </div>
+        <div class="event-wrapper">
+          <div class="event-header">Event 4</div>
+          <div class="event-date">01/10/2000</div>
+          <div class="event-text">Lorem Ipsum</div>
+        </div>
+      </div>
+      <div class="time day-span"></div>
+      <div class="time week-span"></div>
+
       <div class="time day-span"></div>
       <div class="time week-span"></div>
       <div class="event">
-        <div class="event-header">Event 5</div>
-        <div class="event-date">01/24/2000</div>
-        <div class="event-text">Lorem Ipsum</div>
-      </div>
-      <div class="time day-span"></div>
-      <div class="time week-span"></div>
- <div class="time day-span label">
         <div class="dot">
           <svg height="10" width="50">
             <circle r="5" cx="15" cy="5" fill="green" />
@@ -68,9 +80,27 @@
             ></path>
           </svg>
         </div>
-        <div class="text-label">One month is reached.</div>
+        <div class="event-wrapper">
+            <div class="event-text">One month is reached.</div>
+        </div>
       </div>
       <div class="time month-span"></div>
+            <div class="event">
+        <div class="dot">
+          <svg height="10" width="50">
+            <circle r="5" cx="15" cy="5" fill="red" />
+            <path
+              style="stroke: rgb(0, 0, 0); stroke-width: 1px; fill: none"
+              d="M 25 5 L 48 5"
+            ></path>
+          </svg>
+        </div>
+        <div class="event-wrapper">
+          <div class="event-header">Event LAST</div>
+          <div class="event-date">01/10/2000</div>
+          <div class="event-text">End of timeline</div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
